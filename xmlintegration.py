@@ -2,7 +2,6 @@
 from bs4 import BeautifulSoup
 
 stffile = BeautifulSoup(open('StationFacilitiesNOH.xml', 'r'),'lxml')
-setfset = set()
 #i read the xml and create a dict station name as a key raw info.
 diccionaries = {i.find('name').get_text().replace('\n','').replace(' ','').upper(): i
                 for i in stffile.find_all('station')}

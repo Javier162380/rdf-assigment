@@ -1,0 +1,4699 @@
+@prefix ns1: <http://xmlns.com/foaf/0.1/> .
+@prefix ns2: <http://tfl.gov.uk/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://tfl.gov.uk/tfl#ActonTown.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Piccadilly,District" ;
+    ns2:zone "None" ;
+    ns1:station_name "ActonTown" .
+
+<https://tfl.gov.uk/tfl#Aldgate.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "AldgateStation,LondonUndergroundLtd.,AldgateHighSt,London,EC3N1AH" ;
+            ns1:phone "08453309878" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "6" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "electronicwhiteboardsintickethall." ;
+            ns1:Payphones "3" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "4" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Aldgate" .
+
+<https://tfl.gov.uk/tfl#AldgateEast.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Hammersmith&City,District" ;
+    ns2:zone "None" ;
+    ns1:station_name "AldgateEast" .
+
+<https://tfl.gov.uk/tfl#AllSaints.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "DLR" ;
+    ns2:zone "None" ;
+    ns1:station_name "AllSaints" .
+
+<https://tfl.gov.uk/tfl#Alperton.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "AlpertonStation,LondonUndergroundLtd.,EalingRd,Wembley,Middlesex,HA04LL" ;
+            ns1:phone "08453309875" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "2" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes" ;
+            ns1:Vending_Machines "2snack,1drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Alperton" .
+
+<https://tfl.gov.uk/tfl#Amersham.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Metropolitan" ;
+    ns2:zone "None" ;
+    ns1:station_name "Amersham" .
+
+<https://tfl.gov.uk/tfl#Angel.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "AngelStation,LondonUndergroundLtd.,CityRd,London,EC1V1NE" ;
+            ns1:phone "08453309879" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "1" ;
+            ns1:Escalators "6" ;
+            ns1:Gates "10" ;
+            ns1:Help_Points "5onplatforms,1intickethalls,4elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "electronicwhiteboardsintickethall,postofficestylequeuingfortickets,routewaysplatformtotickethall." ;
+            ns1:Payphones "3intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "6snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Angel" .
+
+<https://tfl.gov.uk/tfl#Archway.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "ArchwayStation,LondonUndergroundLtd.,JunctionRd,London,N195RQ" ;
+            ns1:phone "08453309879" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "2" ;
+            ns1:Gates "7" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "postofficestylequeuingfortickets." ;
+            ns1:Payphones "1intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Archway" .
+
+<https://tfl.gov.uk/tfl#ArnosGrove.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "ArnosGroveStation,LondonUndergroundLtd.,BowesRd,London,N111AN" ;
+            ns1:phone "08453309875" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "4" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "postofficestylequeuingfortickets." ;
+            ns1:Payphones "6" ;
+            ns1:Photo_Booths "2" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "ArnosGrove" .
+
+<https://tfl.gov.uk/tfl#Arsenal.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "ArsenalStation,LondonUndergroundLtd.,HighburyHill,London,N51LP" ;
+            ns1:phone "08453309875" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "4onplatforms,0intickethalls,1elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "routewaysplatformtotickethall." ;
+            ns1:Payphones "2intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Arsenal" .
+
+<https://tfl.gov.uk/tfl#BakerStreet.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Jubilee,Bakerloo" ;
+    ns2:zone "None" ;
+    ns1:station_name "BakerStreet" .
+
+<https://tfl.gov.uk/tfl#Balham.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "BalhamUndergroundStation,LondonUndergroundLtd.,BalhamHighRd,London,SW129BW" ;
+            ns1:phone "08453309879" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "2" ;
+            ns1:Gates "6" ;
+            ns1:Help_Points "5onplatforms,0intickethalls,1elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "5" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Balham" .
+
+<https://tfl.gov.uk/tfl#Bank.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "DLR" ;
+    ns2:zone "None" ;
+    ns1:station_name "Bank" .
+
+<https://tfl.gov.uk/tfl#Barbican.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "BarbicanStation,LondonUndergroundLtd.,AldersgateSt,London,EC1A4JA" ;
+            ns1:phone "08453309878" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "8" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "electronicwhiteboardsintickethall,routewaysplatformtotickethall." ;
+            ns1:Payphones "4" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "4" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Barbican" .
+
+<https://tfl.gov.uk/tfl#Barking.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "LondonOverground,Hammersmith&City,District" ;
+    ns2:zone "None" ;
+    ns1:station_name "Barking" .
+
+<https://tfl.gov.uk/tfl#Barkingside.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Central" ;
+    ns2:zone "None" ;
+    ns1:station_name "Barkingside" .
+
+<https://tfl.gov.uk/tfl#BaronsCourt.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Piccadilly,District" ;
+    ns2:zone "None" ;
+    ns1:station_name "BaronsCourt" .
+
+<https://tfl.gov.uk/tfl#Bayswater.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "BayswaterStation,LondonUndergroundLtd.,Queensway,London,W24QH" ;
+            ns1:phone "08453309878" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "6" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "electronicwhiteboardsintickethall." ;
+            ns1:Payphones "3" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "3" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Bayswater" .
+
+<https://tfl.gov.uk/tfl#Beckton.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "DLR" ;
+    ns2:zone "None" ;
+    ns1:station_name "Beckton" .
+
+<https://tfl.gov.uk/tfl#BecktonPark.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "DLR" ;
+    ns2:zone "None" ;
+    ns1:station_name "BecktonPark" .
+
+<https://tfl.gov.uk/tfl#Becontree.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "BecontreeStation,LondonUndergroundLtd.,GaleSt,Dagenham,Essex,RM94TP" ;
+            ns1:phone "08453309874" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "canopiesoverplatform." ;
+            ns1:Payphones "1" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yesM&F(openbetween0500-1500)" ;
+            ns1:Vending_Machines "4" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Becontree" .
+
+<https://tfl.gov.uk/tfl#BelsizePark.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "BelsizeParkStation,LondonUndergroundLtd.,HaverstockHill,London,NW32AL" ;
+            ns1:phone "08453309879" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "6" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "3" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "2intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "BelsizePark" .
+
+<https://tfl.gov.uk/tfl#Bermondsey.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Jubilee" ;
+    ns2:zone "None" ;
+    ns1:station_name "Bermondsey" .
+
+<https://tfl.gov.uk/tfl#BethnalGreen.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "BethnalGreenUndergroundStation,LondonUndergroundLtd.,CambridgeHeathRd,London,E20ET" ;
+            ns1:phone "08453309873" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "3" ;
+            ns1:Gates "6" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "subwaytostreet." ;
+            ns1:Payphones "4intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "4snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "BethnalGreen" .
+
+<https://tfl.gov.uk/tfl#Blackfriars.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "District,Circle" ;
+    ns2:zone "None" ;
+    ns1:station_name "Blackfriars" .
+
+<https://tfl.gov.uk/tfl#BlackhorseRoad.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "BlackhorseRoadUndergroundStation,LondonUndergroundLtd.,BlackhorseRd,London,E176ND" ;
+            ns1:phone "08453309877" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "2" ;
+            ns1:Gates "5" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "postofficestylequeuingfortickets,routewaysplatformtotickethall." ;
+            ns1:Payphones "2intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "BlackhorseRoad" .
+
+<https://tfl.gov.uk/tfl#Blackwall.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "DLR" ;
+    ns2:zone "None" ;
+    ns1:station_name "Blackwall" .
+
+<https://tfl.gov.uk/tfl#BondStreet.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "BondStreetStation,LondonUndergroundLtd.,OxfordSt,London,W1R1FE" ;
+            ns1:phone "08453309873" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "2" ;
+            ns1:Escalators "8" ;
+            ns1:Gates "12" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "canopiesoverplatform,subwaytostreet." ;
+            ns1:Payphones "27" ;
+            ns1:Photo_Booths "2" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "20" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "BondStreet" .
+
+<https://tfl.gov.uk/tfl#Borough.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Northern" ;
+    ns2:zone "None" ;
+    ns1:station_name "Borough" .
+
+<https://tfl.gov.uk/tfl#BostonManor.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "BostonManorStation,LondonUndergroundLtd.,BostonManorRd,Brentford,Middx,TW89LQ" ;
+            ns1:phone "08453309875" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "1" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "BostonManor" .
+
+<https://tfl.gov.uk/tfl#BoundsGreen.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "BoundsGreenStation,LondonUndergroundLtd.,BoundsGreenRd,London,N112EU" ;
+            ns1:phone "08453309875" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "2" ;
+            ns1:Gates "4" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "postofficestylequeuingfortickets,routewaysplatformtotickethall." ;
+            ns1:Payphones "2intickethalls,1onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "BoundsGreen" .
+
+<https://tfl.gov.uk/tfl#BowChurch.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "DLR" ;
+    ns2:zone "None" ;
+    ns1:station_name "BowChurch" .
+
+<https://tfl.gov.uk/tfl#BowRoad.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "BowRoadStation,LondonUndergroundLtd.,BowRoad,London,E34DH" ;
+            ns1:phone "08453309874" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "4" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "BowRoad" .
+
+<https://tfl.gov.uk/tfl#BrentCross.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "BrentCrossStation,LondonUndergroundLtd.,HighfieldAvenue,London,NW119UA" ;
+            ns1:phone "08453309879" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "2intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "BrentCross" .
+
+<https://tfl.gov.uk/tfl#Brixton.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Victoria" ;
+    ns2:zone "None" ;
+    ns1:station_name "Brixton" .
+
+<https://tfl.gov.uk/tfl#Bromley-By-Bow.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "LondonUnderground,55Broadway,London,SW1H0BD" ;
+            ns1:phone "" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ;
+            ns1:description "Entrance1",
+                "LondonUnderground,55Broadway,London,SW1H0BD" ;
+            ns1:naptan_id "4900ZZLUBBB1",
+                "4900ZZLUBBB2" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Bromley-By-Bow" .
+
+<https://tfl.gov.uk/tfl#BuckhurstHill.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "BuckhurstHillStation,LondonUndergroundLtd.,VictoriaRd,BuckhurstHill,Essex,IG95ET" ;
+            ns1:phone "08453309873" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "postofficestylequeuingfortickets." ;
+            ns1:Payphones "1" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes" ;
+            ns1:Vending_Machines "3" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "BuckhurstHill" .
+
+<https://tfl.gov.uk/tfl#BurntOak.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "BurntOakStation,LondonUndergroundLtd.,WatlingAvenue,Edgware,Middx,HA80LA" ;
+            ns1:phone "08453309879" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "3" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "1snack,0drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "BurntOak" .
+
+<https://tfl.gov.uk/tfl#CaledonianRoad.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Piccadilly" ;
+    ns2:zone "None" ;
+    ns1:station_name "CaledonianRoad" .
+
+<https://tfl.gov.uk/tfl#CamdenTown.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Northern" ;
+    ns2:zone "None" ;
+    ns1:station_name "CamdenTown" .
+
+<https://tfl.gov.uk/tfl#CanadaWater.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Jubilee,LondonOverground" ;
+    ns2:zone "None" ;
+    ns1:station_name "CanadaWater" .
+
+<https://tfl.gov.uk/tfl#CanaryWharf.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Jubilee,DLR" ;
+    ns2:zone "None" ;
+    ns1:station_name "CanaryWharf" .
+
+<https://tfl.gov.uk/tfl#CanningTown.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Jubilee,DLR" ;
+    ns2:zone "None" ;
+    ns1:station_name "CanningTown" .
+
+<https://tfl.gov.uk/tfl#CannonStreet.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "District,Circle" ;
+    ns2:zone "None" ;
+    ns1:station_name "CannonStreet" .
+
+<https://tfl.gov.uk/tfl#CanonsPark.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "CanonsParkStation,LondonUndergroundLtd.,WhitchurchLane,Edgware,Middx,HA86RN" ;
+            ns1:phone "08453309871" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "0" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes(male,female,disabled/baby-changingfacilities)" ;
+            ns1:Vending_Machines "1snack,0drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "CanonsPark" .
+
+<https://tfl.gov.uk/tfl#Chalfont&Latimer.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Metropolitan" ;
+    ns2:zone "None" ;
+    ns1:station_name "Chalfont&Latimer" .
+
+<https://tfl.gov.uk/tfl#ChalkFarm.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "ChalkFarmStation,LondonUndergroundLtd.,AdelaideRd,London,NW32BP" ;
+            ns1:phone "08453309879" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "1" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "4" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "2" ;
+            ns1:Other_Facilities "routewaysplatformtotickethall." ;
+            ns1:Payphones "3intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "ChalkFarm" .
+
+<https://tfl.gov.uk/tfl#ChanceryLane.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "ChanceryLaneStation,LondonUndergroundLtd.,HighHolborn,London,WC1V6DR" ;
+            ns1:phone "08453309873" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "5" ;
+            ns1:Gates "10" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "taxiranksoutsidestation,subwaytostreet." ;
+            ns1:Payphones "4intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "7" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "ChanceryLane" .
+
+<https://tfl.gov.uk/tfl#CharingCross.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "CharingCrossUndergroundStation,LondonUndergroundLtd.,TrafalgarSquare,London,WC2N5DR" ;
+            ns1:phone "08453309871" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "3" ;
+            ns1:Escalators "10" ;
+            ns1:Gates "17" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "taxiranksoutsidestation,subwaytostreet,routewaysplatformtotickethall." ;
+            ns1:Payphones "8" ;
+            ns1:Photo_Booths "2" ;
+            ns1:Ticket_Halls "2" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "7" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "CharingCross" .
+
+<https://tfl.gov.uk/tfl#Chesham.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Metropolitan" ;
+    ns2:zone "None" ;
+    ns1:station_name "Chesham" .
+
+<https://tfl.gov.uk/tfl#Chigwell.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "ChigwellStation,LondonUndergroundLtd.,StationRd,Chigwell,Essex,IG76NT" ;
+            ns1:phone "08453309873" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "routewaysplatformtotickethall." ;
+            ns1:Payphones "1" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes(femaleonly)" ;
+            ns1:Vending_Machines "1" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Chigwell" .
+
+<https://tfl.gov.uk/tfl#ChiswickPark.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "ChiswickParkStation,LondonUndergroundLtd.,BolloLane,London,W45NE" ;
+            ns1:phone "08453309874" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "canopiesoverplatform." ;
+            ns1:Payphones "2" ;
+            ns1:Photo_Booths "2" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "ChiswickPark" .
+
+<https://tfl.gov.uk/tfl#Chorleywood.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Metropolitan" ;
+    ns2:zone "None" ;
+    ns1:station_name "Chorleywood" .
+
+<https://tfl.gov.uk/tfl#ClaphamCommon.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "ClaphamCommonStation,LondonUndergroundLtd.,ThePavement,London,SW47AJ" ;
+            ns1:phone "08453309879" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "2" ;
+            ns1:Gates "5" ;
+            ns1:Help_Points "5onplatforms,1intickethalls,1elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "electronicwhiteboardsintickethall" ;
+            ns1:Payphones "3" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "1snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "ClaphamCommon" .
+
+<https://tfl.gov.uk/tfl#ClaphamNorth.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Northern" ;
+    ns2:zone "None" ;
+    ns1:station_name "ClaphamNorth" .
+
+<https://tfl.gov.uk/tfl#ClaphamSouth.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "ClaphamSouthStation,LondonUndergroundLtd.,BalhamHill,London,SW129DU" ;
+            ns1:phone "08453309879" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "2" ;
+            ns1:Gates "6" ;
+            ns1:Help_Points "5onplatforms,1intickethalls,1elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "electronicwhiteboardsintickethall." ;
+            ns1:Payphones "6" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "4" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "ClaphamSouth" .
+
+<https://tfl.gov.uk/tfl#Cockfosters.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "CockfostersStation,LondonUndergroundLtd.,CockfostersRd,Barnet,Herts,EN40DZ" ;
+            ns1:phone "08453309875" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "subwaytostreet." ;
+            ns1:Payphones "3intickethalls,0onplatforms" ;
+            ns1:Photo_Booths "2" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes" ;
+            ns1:Vending_Machines "0snack,0drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Cockfosters" .
+
+<https://tfl.gov.uk/tfl#Colindale.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "ColindaleStation,LondonUndergroundLtd.,ColindaleAvenue,London,NW95HR" ;
+            ns1:phone "08453309879" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "4" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "1" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Colindale" .
+
+<https://tfl.gov.uk/tfl#ColliersWood.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "ColliersWoodStation,LondonUndergroundLtd.,ColliersWoodHighSt,London,SW192HR" ;
+            ns1:phone "08453309879" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "2" ;
+            ns1:Gates "4" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "1intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "ColliersWood" .
+
+<https://tfl.gov.uk/tfl#CoventGarden.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "CoventGardenStation,LondonUndergroundLtd.,LongAcre,London,WC2E9JT" ;
+            ns1:phone "08453309875" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "10" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "4" ;
+            ns1:Other_Facilities "routewaysplatformtotickethall." ;
+            ns1:Payphones "2" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "7" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "CoventGarden" .
+
+<https://tfl.gov.uk/tfl#Croxley.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "CroxleyStation,LondonUndergroundLtd.,WatfordRoad,Rickmansworth,Herts,WD33DY" ;
+            ns1:phone "08453309878" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "1intickethalls,1onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes" ;
+            ns1:Vending_Machines "0snack,1drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Croxley" .
+
+<https://tfl.gov.uk/tfl#Cyprus.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "DLR" ;
+    ns2:zone "None" ;
+    ns1:station_name "Cyprus" .
+
+<https://tfl.gov.uk/tfl#DagenhamEast.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "DagenhamEastStation,LondonUndergroundLtd.,NorthRainhamRd,Dagenham,Essex,RM108AA" ;
+            ns1:phone "08453309874" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "4" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "canopiesoverplatform." ;
+            ns1:Payphones "1" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yesM&F(openbetween0500-1500)" ;
+            ns1:Vending_Machines "4" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "DagenhamEast" .
+
+<https://tfl.gov.uk/tfl#DagenhamHeathway.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "District" ;
+    ns2:zone "None" ;
+    ns1:station_name "DagenhamHeathway" .
+
+<https://tfl.gov.uk/tfl#Debden.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Central" ;
+    ns2:zone "None" ;
+    ns1:station_name "Debden" .
+
+<https://tfl.gov.uk/tfl#DeptfordBridge.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "DLR" ;
+    ns2:zone "None" ;
+    ns1:station_name "DeptfordBridge" .
+
+<https://tfl.gov.uk/tfl#DevonsRoad.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "DLR" ;
+    ns2:zone "None" ;
+    ns1:station_name "DevonsRoad" .
+
+<https://tfl.gov.uk/tfl#DollisHill.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "DollisHillStation,LondonUndergroundLtd.,HamiltonRd,London,NW105NB" ;
+            ns1:phone "08453309871" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "subwaytostreet,routewaysplatformtotickethall." ;
+            ns1:Payphones "1" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes(male,female,disabled/baby-changingfacilities)" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "DollisHill" .
+
+<https://tfl.gov.uk/tfl#EalingBroadway.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Central" ;
+    ns2:zone "None" ;
+    ns1:station_name "EalingBroadway" .
+
+<https://tfl.gov.uk/tfl#EalingCommon.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Piccadilly,District" ;
+    ns2:zone "None" ;
+    ns1:station_name "EalingCommon" .
+
+<https://tfl.gov.uk/tfl#Earl'sCourt.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Piccadilly,District" ;
+    ns2:zone "None" ;
+    ns1:station_name "Earl'sCourt" .
+
+<https://tfl.gov.uk/tfl#EastActon.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "EastActonStation,LondonUndergroundLtd.,ErconwaldSt,London,W120BP" ;
+            ns1:phone "08453309873" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "routewaysplatformtotickethall." ;
+            ns1:Payphones "1" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "1" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "EastActon" .
+
+<https://tfl.gov.uk/tfl#EastFinchley.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "EastFinchleyStation,LondonUndergroundLtd.,HighRd,London,N20NW" ;
+            ns1:phone "08453309879" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "6" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "postofficestylequeuingfortickets." ;
+            ns1:Payphones "3intickethalls,0onplatforms" ;
+            ns1:Photo_Booths "2" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "0snack,0drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "EastFinchley" .
+
+<https://tfl.gov.uk/tfl#EastHam.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Hammersmith&City,District" ;
+    ns2:zone "None" ;
+    ns1:station_name "EastHam" .
+
+<https://tfl.gov.uk/tfl#EastIndia.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "DLR" ;
+    ns2:zone "None" ;
+    ns1:station_name "EastIndia" .
+
+<https://tfl.gov.uk/tfl#EastPutney.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "EastPutneyStation,UpperRichmondRd,London,SW15" ;
+            ns1:phone "08453309874" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "5" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "routewaysplatformtotickethall." ;
+            ns1:Payphones "5" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "0snack,0drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "EastPutney" .
+
+<https://tfl.gov.uk/tfl#Eastcote.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "EastcoteStation,LondonUndergroundLtd.,FieldEndRd,Ruislip,Middx,HA51QZ" ;
+            ns1:phone "08453309878" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "1intickethalls,1onplatforms" ;
+            ns1:Photo_Booths "2" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes" ;
+            ns1:Vending_Machines "4" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Eastcote" .
+
+<https://tfl.gov.uk/tfl#Edgware.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Northern" ;
+    ns2:zone "None" ;
+    ns1:station_name "Edgware" .
+
+<https://tfl.gov.uk/tfl#Elephant&Castle.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Northern" ;
+    ns2:zone "None" ;
+    ns1:station_name "Elephant&Castle" .
+
+<https://tfl.gov.uk/tfl#ElmPark.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "District" ;
+    ns2:zone "None" ;
+    ns1:station_name "ElmPark" .
+
+<https://tfl.gov.uk/tfl#ElversonRoad.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "DLR" ;
+    ns2:zone "None" ;
+    ns1:station_name "ElversonRoad" .
+
+<https://tfl.gov.uk/tfl#Embankment.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "EmbankmentStation,LondonUndergroundLtd.,VilliersSt,London,WC2N6NS" ;
+            ns1:phone "08453309874" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "3" ;
+            ns1:Escalators "10" ;
+            ns1:Gates "9" ;
+            ns1:Help_Points "1onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "taxiranksoutsidestation,subwaytostreet." ;
+            ns1:Payphones "11intickethalls,6onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "28" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Embankment" .
+
+<https://tfl.gov.uk/tfl#Epping.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Central" ;
+    ns2:zone "None" ;
+    ns1:station_name "Epping" .
+
+<https://tfl.gov.uk/tfl#Euston.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "LondonOverground,Victoria,Northern" ;
+    ns2:zone "None" ;
+    ns1:station_name "Euston" .
+
+<https://tfl.gov.uk/tfl#EustonSquare.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Metropolitan,Hammersmith&City,Circle" ;
+    ns2:zone "None" ;
+    ns1:station_name "EustonSquare" .
+
+<https://tfl.gov.uk/tfl#Fairlop.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "FairlopStation,LondonUndergroundLtd.,ForestRd,Ilford,Essex,IG63HD" ;
+            ns1:phone "08453309873" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "postofficestylequeuingfortickets,routewaysplatformtotickethall." ;
+            ns1:Payphones "1" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Fairlop" .
+
+<https://tfl.gov.uk/tfl#Farringdon.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Metropolitan,Hammersmith&City,Circle" ;
+    ns2:zone "None" ;
+    ns1:station_name "Farringdon" .
+
+<https://tfl.gov.uk/tfl#FinchleyCentral.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Northern" ;
+    ns2:zone "None" ;
+    ns1:station_name "FinchleyCentral" .
+
+<https://tfl.gov.uk/tfl#FinchleyRoad.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Jubilee,Metropolitan" ;
+    ns2:zone "None" ;
+    ns1:station_name "FinchleyRoad" .
+
+<https://tfl.gov.uk/tfl#FinsburyPark.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Victoria,Piccadilly" ;
+    ns2:zone "None" ;
+    ns1:station_name "FinsburyPark" .
+
+<https://tfl.gov.uk/tfl#FulhamBroadway.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "District" ;
+    ns2:zone "None" ;
+    ns1:station_name "FulhamBroadway" .
+
+<https://tfl.gov.uk/tfl#GallionsReach.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "DLR" ;
+    ns2:zone "None" ;
+    ns1:station_name "GallionsReach" .
+
+<https://tfl.gov.uk/tfl#GantsHill.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "GantsHillStation,LondonUndergroundLtd.,CranbrookRd,Ilford,Essex,IG26UD" ;
+            ns1:phone "08453309873" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "3" ;
+            ns1:Gates "5" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "subwaytostreet." ;
+            ns1:Payphones "2intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2snack,2drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "GantsHill" .
+
+<https://tfl.gov.uk/tfl#GloucesterRoad.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "GloucesterRoadStation,LondonUndergroundLtd.,GloucesterRd,London,SW74SF" ;
+            ns1:phone "08453309874" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "8" ;
+            ns1:Help_Points "0onplatforms,2intickethalls,1elsewhere" ;
+            ns1:Lifts "2" ;
+            ns1:Other_Facilities "taxiranksoutsidestation,postofficestylequeuingfortickets,routewaysplatformtotickethall." ;
+            ns1:Payphones "9" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "17" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "GloucesterRoad" .
+
+<https://tfl.gov.uk/tfl#GoldersGreen.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Northern" ;
+    ns2:zone "None" ;
+    ns1:station_name "GoldersGreen" .
+
+<https://tfl.gov.uk/tfl#GoldhawkRoad.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "GoldhawkRoadStation,LondonUndergroundLtd.,GoldhawkRd,London,W128EG" ;
+            ns1:phone "08453309878" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "4onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "2" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "GoldhawkRoad" .
+
+<https://tfl.gov.uk/tfl#GoodgeStreet.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "GoodgeStreetStation,LondonUndergroundLtd.,75TottenhamCourtRd,London,W1P9PA" ;
+            ns1:phone "08453309879" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "8" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "4" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "6" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "10" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "GoodgeStreet" .
+
+<https://tfl.gov.uk/tfl#GrangeHill.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "GrangeHillStation,LondonUndergroundLtd.,ManorRd,Chigwell,EssexIG75QB" ;
+            ns1:phone "08453309873" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "routewaysplatformtotickethall." ;
+            ns1:Payphones "1" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes(male,female)" ;
+            ns1:Vending_Machines "1" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "GrangeHill" .
+
+<https://tfl.gov.uk/tfl#GreatPortlandStreet.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "GreatPortlandStreetStation,LondonUndergroundLtd.,EustonRd,London,NW1" ;
+            ns1:phone "08453309878" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "8" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "electronicwhiteboardsintickethall." ;
+            ns1:Payphones "5" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "0snack,2drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "GreatPortlandStreet" .
+
+<https://tfl.gov.uk/tfl#GreenPark.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Jubilee,Victoria,Piccadilly" ;
+    ns2:zone "None" ;
+    ns1:station_name "GreenPark" .
+
+<https://tfl.gov.uk/tfl#Greenford.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Central" ;
+    ns2:zone "None" ;
+    ns1:station_name "Greenford" .
+
+<https://tfl.gov.uk/tfl#Greenwich.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "DLR" ;
+    ns2:zone "None" ;
+    ns1:station_name "Greenwich" .
+
+<https://tfl.gov.uk/tfl#Gunnersbury.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "LondonOverground,District" ;
+    ns2:zone "None" ;
+    ns1:station_name "Gunnersbury" .
+
+<https://tfl.gov.uk/tfl#Hainault.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Central" ;
+    ns2:zone "None" ;
+    ns1:station_name "Hainault" .
+
+<https://tfl.gov.uk/tfl#Hammersmith.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Piccadilly,Hammersmith&City,District,Circle" ;
+    ns2:zone "None" ;
+    ns1:station_name "Hammersmith" .
+
+<https://tfl.gov.uk/tfl#Hampstead.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "HampsteadStation,LondonUndergroundLtd.,HampsteadHighSt,London,NW31QG" ;
+            ns1:phone "08453309879" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "1" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "6" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "4" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "2intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Hampstead" .
+
+<https://tfl.gov.uk/tfl#HangerLane.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "HangerLaneStation,LondonUndergroundLtd.,HangerLane,London,W51DL" ;
+            ns1:phone "08453309873" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "subwaytostreet." ;
+            ns1:Payphones "2" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes(male,female)" ;
+            ns1:Vending_Machines "2" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "HangerLane" .
+
+<https://tfl.gov.uk/tfl#Harlesden.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "LondonUnderground,55Broadway,London,SW1H0BD" ;
+            ns1:phone "" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ;
+            ns1:description "LondonUnderground,55Broadway,London,SW1H0BD" ;
+            ns1:naptan_id "4900ZZLUHSN1" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Harlesden" .
+
+<https://tfl.gov.uk/tfl#Harrow&Wealdstone.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "LondonOverground,Bakerloo" ;
+    ns2:zone "None" ;
+    ns1:station_name "Harrow&Wealdstone" .
+
+<https://tfl.gov.uk/tfl#HattonCross.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "HattonCrossStation,LondonUndergroundLtd.,GreatSouthWestRd,Feltham,Middx," ;
+            ns1:phone "08453309875" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "subwaytostreet,routewaysplatformtotickethall." ;
+            ns1:Payphones "9" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "4snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "HattonCross" .
+
+<https://tfl.gov.uk/tfl#HeathrowTerminal4.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Piccadilly" ;
+    ns2:zone "None" ;
+    ns1:station_name "HeathrowTerminal4" .
+
+<https://tfl.gov.uk/tfl#HeathrowTerminals1,2,3.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Piccadilly" ;
+    ns2:zone "None" ;
+    ns1:station_name "HeathrowTerminals1,2,3" .
+
+<https://tfl.gov.uk/tfl#HendonCentral.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Northern" ;
+    ns2:zone "None" ;
+    ns1:station_name "HendonCentral" .
+
+<https://tfl.gov.uk/tfl#HeronQuays.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "DLR" ;
+    ns2:zone "None" ;
+    ns1:station_name "HeronQuays" .
+
+<https://tfl.gov.uk/tfl#HighBarnet.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Northern" ;
+    ns2:zone "None" ;
+    ns1:station_name "HighBarnet" .
+
+<https://tfl.gov.uk/tfl#HighStreetKensington.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "District,Circle" ;
+    ns2:zone "None" ;
+    ns1:station_name "HighStreetKensington" .
+
+<https://tfl.gov.uk/tfl#Highbury&Islington.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "LondonOverground,Victoria" ;
+    ns2:zone "None" ;
+    ns1:station_name "Highbury&Islington" .
+
+<https://tfl.gov.uk/tfl#Highgate.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "HighgateStation,LondonUndergroundLtd.,ArchwayRd,London,N6" ;
+            ns1:phone "08453309879" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "3" ;
+            ns1:Gates "4" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "3intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Highgate" .
+
+<https://tfl.gov.uk/tfl#Hillingdon.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Metropolitan,Piccadilly" ;
+    ns2:zone "None" ;
+    ns1:station_name "Hillingdon" .
+
+<https://tfl.gov.uk/tfl#Holborn.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "HolbornStation,LondonUndergroundLtd.,Kingsway,London,WC2B6AA" ;
+            ns1:phone "08453309873" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "1" ;
+            ns1:Escalators "7" ;
+            ns1:Gates "17" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "routewaysplatformtotickethall." ;
+            ns1:Payphones "13" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "14" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Holborn" .
+
+<https://tfl.gov.uk/tfl#HollandPark.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "HollandParkStation,LondonUndergroundLtd.,HollandParkAvenue,London,W113RB" ;
+            ns1:phone "08453309873" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "2" ;
+            ns1:Other_Facilities "routewaysplatformtotickethall." ;
+            ns1:Payphones "0intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "3snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "HollandPark" .
+
+<https://tfl.gov.uk/tfl#HollowayRoad.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "HollowayRoadStation,LondonUndergroundLtd.,HollowayRd,London,N78HS" ;
+            ns1:phone "08453309875" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "5" ;
+            ns1:Help_Points "4onplatforms,0intickethalls,2elsewhere" ;
+            ns1:Lifts "2" ;
+            ns1:Other_Facilities "routewaysplatformtotickethall." ;
+            ns1:Payphones "2intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "HollowayRoad" .
+
+<https://tfl.gov.uk/tfl#Hornchurch.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "HornchurchStation,LondonUndergroundLtd.,StationLane,Hornchurch,Essex,RM126LS" ;
+            ns1:phone "08453309874" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "4" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "canopiesoverplatform,taxiranksoutsidestation." ;
+            ns1:Payphones "1" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yesM&F(openbetween0500-1500)" ;
+            ns1:Vending_Machines "4" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Hornchurch" .
+
+<https://tfl.gov.uk/tfl#HounslowCentral.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "HounslowCentralStation,LondonUndergroundLtd.,LamptonRd,Hounslow,Middx,TW31JG" ;
+            ns1:phone "08453309875" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "2" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "HounslowCentral" .
+
+<https://tfl.gov.uk/tfl#HounslowEast.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Piccadilly" ;
+    ns2:zone "None" ;
+    ns1:station_name "HounslowEast" .
+
+<https://tfl.gov.uk/tfl#HounslowWest.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Piccadilly" ;
+    ns2:zone "None" ;
+    ns1:station_name "HounslowWest" .
+
+<https://tfl.gov.uk/tfl#HydeParkCorner.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "HydeParkCornerStation,LondonUndergroundLtd.,Knightsbridge,London,SW1X7LY" ;
+            ns1:phone "08453309875" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "2" ;
+            ns1:Escalators "2" ;
+            ns1:Gates "5" ;
+            ns1:Help_Points "1onplatforms,0intickethalls,1elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "subwaytostreet,routewaysplatformtotickethall." ;
+            ns1:Payphones "6" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "6" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "HydeParkCorner" .
+
+<https://tfl.gov.uk/tfl#Ickenham.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "IckenhamStation,LondonUndergroundLtd.,GlebeAvenue,Uxbridge,Middx,UB108PD" ;
+            ns1:phone "08453309878" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "0intickethalls,1onplatforms" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "3" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Ickenham" .
+
+<https://tfl.gov.uk/tfl#IslandGardens.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "DLR" ;
+    ns2:zone "None" ;
+    ns1:station_name "IslandGardens" .
+
+<https://tfl.gov.uk/tfl#Kennington.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Northern" ;
+    ns2:zone "None" ;
+    ns1:station_name "Kennington" .
+
+<https://tfl.gov.uk/tfl#KensalGreen.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "LondonUnderground,55Broadway,London,SW1H0BD" ;
+            ns1:phone "" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ;
+            ns1:description "LondonUnderground,55Broadway,London,SW1H0BD" ;
+            ns1:naptan_id "490000122002" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "KensalGreen" .
+
+<https://tfl.gov.uk/tfl#Kensington(Olympia).html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "LondonOverground,District" ;
+    ns2:zone "None" ;
+    ns1:station_name "Kensington(Olympia)" .
+
+<https://tfl.gov.uk/tfl#KentishTown.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "KentishTownUndergroundStation,LondonUndergroundLtd.,KentishTownRd,London,NW52AA" ;
+            ns1:phone "08453309879" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "2" ;
+            ns1:Gates "4" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "routewaysplatformtotickethall." ;
+            ns1:Payphones "2" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "KentishTown" .
+
+<https://tfl.gov.uk/tfl#Kenton.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "LondonUnderground,55Broadway,London,SW1H0BD" ;
+            ns1:phone "" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ;
+            ns1:description "LondonUnderground,55Broadway,London,SW1H0BD" ;
+            ns1:naptan_id "4900ZZLUKEN1" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Kenton" .
+
+<https://tfl.gov.uk/tfl#KewGardens.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "LondonOverground,District" ;
+    ns2:zone "None" ;
+    ns1:station_name "KewGardens" .
+
+<https://tfl.gov.uk/tfl#Kilburn.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Jubilee" ;
+    ns2:zone "None" ;
+    ns1:station_name "Kilburn" .
+
+<https://tfl.gov.uk/tfl#KilburnPark.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "KilburnParkStation,LondonUndergroundLtd.,CambridgeAvenue,London,NW65AD" ;
+            ns1:phone "08453309872" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "2" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "1intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "KilburnPark" .
+
+<https://tfl.gov.uk/tfl#Kingsbury.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Jubilee" ;
+    ns2:zone "None" ;
+    ns1:station_name "Kingsbury" .
+
+<https://tfl.gov.uk/tfl#Knightsbridge.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "KnightsbridgeStation,LondonUndergroundLtd.,SloaneSt,London,SW1" ;
+            ns1:phone "08453309875" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "1" ;
+            ns1:Escalators "5" ;
+            ns1:Gates "13" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "subwaytostreet,routewaysplatformtotickethall." ;
+            ns1:Payphones "12" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "2" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "13" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Knightsbridge" .
+
+<https://tfl.gov.uk/tfl#LadbrokeGrove.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "LadbrokeGroveStation,LondonUndergroundLtd.,LadbrokeGrove,London,W106HJ" ;
+            ns1:phone "08453309878" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "4" ;
+            ns1:Help_Points "0onplatforms,1intickethalls,4elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "electronicwhiteboardsintickethall." ;
+            ns1:Payphones "3" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "1" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "LadbrokeGrove" .
+
+<https://tfl.gov.uk/tfl#LambethNorth.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "LambethNorthStation,LondonUndergroundLtd.,110WestminsterBridgeRd,London,SE17XG" ;
+            ns1:phone "08453309872" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "2" ;
+            ns1:Other_Facilities "routewaysplatformtotickethall." ;
+            ns1:Payphones "3" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "4" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "LambethNorth" .
+
+<https://tfl.gov.uk/tfl#LancasterGate.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "LancasterGateStation,LondonUndergroundLtd.,BayswaterRd,London,W2" ;
+            ns1:phone "08453309873" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "5" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "2" ;
+            ns1:Other_Facilities "routewaysplatformtotickethall." ;
+            ns1:Payphones "1intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "5" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "LancasterGate" .
+
+<https://tfl.gov.uk/tfl#LatimerRoad.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "LatimerRoadStation,LondonUndergroundLtd.,BramleyRd,London,W106SZ" ;
+            ns1:phone "08453309878" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "4onplatforms,0intickethalls,1elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "3" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "4" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "LatimerRoad" .
+
+<https://tfl.gov.uk/tfl#LeicesterSquare.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "LeicesterSquareStation,LondonUndergroundLtd.,CranbournSt,London,WC2H0AP" ;
+            ns1:phone "08453309875" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "1" ;
+            ns1:Escalators "6" ;
+            ns1:Gates "15" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "electronicwhiteboardsintickethall,subwaytostreet,routewaysplatformtotickethall." ;
+            ns1:Payphones "12" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "18" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "LeicesterSquare" .
+
+<https://tfl.gov.uk/tfl#Lewisham.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "DLR" ;
+    ns2:zone "None" ;
+    ns1:station_name "Lewisham" .
+
+<https://tfl.gov.uk/tfl#Leyton.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "LeytonUndergroundStation,LondonUndergroundLtd.,HighRd,Leyton,London,E105PS" ;
+            ns1:phone "08453309873" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "5" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "3" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "2" ;
+            ns1:Toilets "yes" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Leyton" .
+
+<https://tfl.gov.uk/tfl#Leytonstone.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "LeytonstoneStation,LondonUndergroundLtd.,ChurchLane,London,E111HE" ;
+            ns1:phone "08453309873" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "5" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "subwaytostreet." ;
+            ns1:Payphones "5" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes(male,female)" ;
+            ns1:Vending_Machines "4" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Leytonstone" .
+
+<https://tfl.gov.uk/tfl#Limehouse.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "DLR" ;
+    ns2:zone "None" ;
+    ns1:station_name "Limehouse" .
+
+<https://tfl.gov.uk/tfl#LiverpoolStreet.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Metropolitan,Hammersmith&City,Circle" ;
+    ns2:zone "None" ;
+    ns1:station_name "LiverpoolStreet" .
+
+<https://tfl.gov.uk/tfl#LondonBridge.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Jubilee,Northern" ;
+    ns2:zone "None" ;
+    ns1:station_name "LondonBridge" .
+
+<https://tfl.gov.uk/tfl#Loughton.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "LoughtonStation,LondonUndergroundLtd.,OldStationRd,RodingRd,Loughton,Essex,IG104PD" ;
+            ns1:phone "08453309873" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "4" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "postofficestylequeuingfortickets,routewaysplatformtotickethall." ;
+            ns1:Payphones "2" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes(male,female)" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Loughton" .
+
+<https://tfl.gov.uk/tfl#MaidaVale.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "MaidaValeStation,LondonUndergroundLtd.,ElginAvenue,London,W91JS" ;
+            ns1:phone "08453309872" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "2" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "2intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "MaidaVale" .
+
+<https://tfl.gov.uk/tfl#ManorHouse.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "ManorHouseStation,LondonUndergroundLtd.,GreenLanes,London,N41BZ" ;
+            ns1:phone "08453309875" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "3" ;
+            ns1:Gates "7" ;
+            ns1:Help_Points "4onplatforms,0intickethalls,1elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "postofficestylequeuingfortickets,subwaytostreet,routewaysplatformtotickethall." ;
+            ns1:Payphones "4intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "ManorHouse" .
+
+<https://tfl.gov.uk/tfl#MansionHouse.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "MansionHouseStation,LondonUndergroundLtd.,38CannonSt,London,EC4N6JD" ;
+            ns1:phone "08453309874" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "8" ;
+            ns1:Help_Points "5onplatforms,0intickethalls,2elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "taxiranksoutsidestation,subwaytostreet." ;
+            ns1:Payphones "2intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "6snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "MansionHouse" .
+
+<https://tfl.gov.uk/tfl#MarbleArch.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "MarbleArchStation,LondonUndergroundLtd.,OxfordSt,London,W1R1DD" ;
+            ns1:phone "08453309873" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "2" ;
+            ns1:Gates "9" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "subwaytostreet." ;
+            ns1:Payphones "9intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "2" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "9" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "MarbleArch" .
+
+<https://tfl.gov.uk/tfl#Marylebone.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "MaryleboneUndergroundStation,LondonUndergroundLtd.,HarewoodRow,London,NW16JP" ;
+            ns1:phone "08453309872" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "2" ;
+            ns1:Gates "6" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "taxiranksoutsidestation,routewaysplatformtotickethall." ;
+            ns1:Payphones "0intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Marylebone" .
+
+<https://tfl.gov.uk/tfl#MileEnd.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Hammersmith&City,District,Central" ;
+    ns2:zone "None" ;
+    ns1:station_name "MileEnd" .
+
+<https://tfl.gov.uk/tfl#MillHillEast.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "MillHillEastStation,LondonUndergroundLtd.,BittacyHill,London,NW71BS" ;
+            ns1:phone "08453309879" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "0" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "1intickethalls,0onplatforms" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yesMale/Female" ;
+            ns1:Vending_Machines "0snack,0drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "MillHillEast" .
+
+<https://tfl.gov.uk/tfl#Monument.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "District,Circle" ;
+    ns2:zone "None" ;
+    ns1:station_name "Monument" .
+
+<https://tfl.gov.uk/tfl#MoorPark.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "MoorParkStation,LondonUndergroundLtd.,SandyLodgeLane,Rickmansworth,Herts,HA62JQ." ;
+            ns1:phone "08453309878" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "3" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes" ;
+            ns1:Vending_Machines "4" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "MoorPark" .
+
+<https://tfl.gov.uk/tfl#Moorgate.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "MoorgateStation,LondonUndergroundLtd.,Moorfields,London,EC2Y9AE" ;
+            ns1:phone "" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "2" ;
+            ns1:Escalators "6" ;
+            ns1:Gates "25" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "electronicwhiteboardsintickethall,routewaysplatformtotickethall." ;
+            ns1:Payphones "24" ;
+            ns1:Photo_Booths "2" ;
+            ns1:Ticket_Halls "2" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "14" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Moorgate" .
+
+<https://tfl.gov.uk/tfl#Morden.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Northern" ;
+    ns2:zone "None" ;
+    ns1:station_name "Morden" .
+
+<https://tfl.gov.uk/tfl#MorningtonCrescent.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "MorningtonCrescentStation,LondonUndergroundLtd.,EversholtSt,London,NW12JA" ;
+            ns1:phone "08453309879" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "4" ;
+            ns1:Help_Points "4onplatforms,1intickethalls,1elsewhere" ;
+            ns1:Lifts "2" ;
+            ns1:Other_Facilities "electronicwhiteboardsintickethall." ;
+            ns1:Payphones "2" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "MorningtonCrescent" .
+
+<https://tfl.gov.uk/tfl#Mudchute.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "DLR" ;
+    ns2:zone "None" ;
+    ns1:station_name "Mudchute" .
+
+<https://tfl.gov.uk/tfl#Neasden.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "NeasdenStation,LondonUndergroundLtd.,NeasdenLane,London,NW101PH" ;
+            ns1:phone "08453309871" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "1" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes(male,female,disabled/baby-changingfacilities)" ;
+            ns1:Vending_Machines "1snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Neasden" .
+
+<https://tfl.gov.uk/tfl#NewCross.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "LondonOverground" ;
+    ns2:zone "None" ;
+    ns1:station_name "NewCross" .
+
+<https://tfl.gov.uk/tfl#NewCrossGate.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "LondonUnderground,55Broadway,London,SW1H0BD" ;
+            ns1:phone "" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ;
+            ns1:description "Entrance1",
+                "LondonUnderground,55Broadway,London,SW1H0BD" ;
+            ns1:naptan_id "4900NEWXGTE1",
+                "4900NEWXGTE2" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "NewCrossGate" .
+
+<https://tfl.gov.uk/tfl#NewburyPark.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "NewburyParkStation,LondonUndergroundLtd.,EasternAvenue,Ilford,Essex,IG27RN" ;
+            ns1:phone "08453309873" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "postofficestylequeuingfortickets,routewaysplatformtotickethall." ;
+            ns1:Payphones "1" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes(male,female)" ;
+            ns1:Vending_Machines "4" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "NewburyPark" .
+
+<https://tfl.gov.uk/tfl#NorthActon.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "NorthActonStation,LondonUndergroundLtd.,VictoriaRd,London,W36UP" ;
+            ns1:phone "08453309873" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "4" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "1intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "1" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "NorthActon" .
+
+<https://tfl.gov.uk/tfl#NorthEaling.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "NorthEalingStation,LondonUndergroundLtd.,StationRoad,London,W53AF" ;
+            ns1:phone "08453309875" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "1intickethalls,0onplatforms" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes" ;
+            ns1:Vending_Machines "0snack,0drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "NorthEaling" .
+
+<https://tfl.gov.uk/tfl#NorthGreenwich.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Jubilee" ;
+    ns2:zone "None" ;
+    ns1:station_name "NorthGreenwich" .
+
+<https://tfl.gov.uk/tfl#NorthHarrow.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "NorthHarrowStation,LondonUndergroundLtd.,StationRd,NorthHarrow,Middx,HA27SR" ;
+            ns1:phone "08453309878" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "1" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes" ;
+            ns1:Vending_Machines "3" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "NorthHarrow" .
+
+<https://tfl.gov.uk/tfl#NorthWembley.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "LondonUnderground,55Broadway,London,SW1H0BD" ;
+            ns1:phone "" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ;
+            ns1:description "LondonUnderground,55Broadway,London,SW1H0BD" ;
+            ns1:naptan_id "4900ZZLUNWY1" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "NorthWembley" .
+
+<https://tfl.gov.uk/tfl#Northfields.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "NorthfieldsStation,LondonUndergroundLtd.,NorthfieldAvenue,London,W139QU" ;
+            ns1:phone "08453309875" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "4" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "postofficestylequeuingfortickets." ;
+            ns1:Payphones "2" ;
+            ns1:Photo_Booths "2" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Northfields" .
+
+<https://tfl.gov.uk/tfl#Northolt.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "NortholtUndergroundStation,LondonUndergroundLtd.,MandevilleRd,Northolt,Middx,UB54AA" ;
+            ns1:phone "08453309873" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "4" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "routewaysplatformtotickethall." ;
+            ns1:Payphones "2intickethalls,1onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes(male,female)" ;
+            ns1:Vending_Machines "2" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Northolt" .
+
+<https://tfl.gov.uk/tfl#NorthwickPark.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Metropolitan" ;
+    ns2:zone "None" ;
+    ns1:station_name "NorthwickPark" .
+
+<https://tfl.gov.uk/tfl#Northwood.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "NorthwoodStation,LondonUndergroundLtd.,StationApproach,GreenLane,Northwood,Middx,HA62XL" ;
+            ns1:phone "08453309878" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "postofficestylequeuingfortickets." ;
+            ns1:Payphones "1" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes" ;
+            ns1:Vending_Machines "0snack,2drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Northwood" .
+
+<https://tfl.gov.uk/tfl#NorthwoodHills.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "NorthwoodHillsStation,LondonUndergroundLtd.,JoelSt,Northwood,Middx,HA61NZ" ;
+            ns1:phone "08453309878" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "postofficestylequeuingfortickets." ;
+            ns1:Payphones "1" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes" ;
+            ns1:Vending_Machines "0snack,2drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "NorthwoodHills" .
+
+<https://tfl.gov.uk/tfl#NottingHillGate.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "NottingHillGateStation,LondonUndergroundLtd.,NottingHillGate,London,W113HT" ;
+            ns1:phone "08453309873" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "6" ;
+            ns1:Gates "6" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "subwaytostreet." ;
+            ns1:Payphones "11" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes" ;
+            ns1:Vending_Machines "10" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "NottingHillGate" .
+
+<https://tfl.gov.uk/tfl#Oakwood.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Piccadilly" ;
+    ns2:zone "None" ;
+    ns1:station_name "Oakwood" .
+
+<https://tfl.gov.uk/tfl#OldStreet.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "OldStreetStation,LondonUndergroundLtd.,OldSt,London,EC1V9NR" ;
+            ns1:phone "08453309879" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "1" ;
+            ns1:Escalators "3" ;
+            ns1:Gates "7" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "5intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "OldStreet" .
+
+<https://tfl.gov.uk/tfl#Osterley.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "OsterleyStation,LondonUndergroundLtd.,GreatWestRd,Isleworth,Middx,TW74PU" ;
+            ns1:phone "08453309875" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "2intickethalls,0onplatforms" ;
+            ns1:Photo_Booths "2" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes" ;
+            ns1:Vending_Machines "1" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Osterley" .
+
+<https://tfl.gov.uk/tfl#Oval.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "OvalStation,LondonUndergroundLtd.,318KenningtonParkRd,London,SE114PP" ;
+            ns1:phone "08453309879" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "2" ;
+            ns1:Gates "6" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "electronicwhiteboardsintickethall." ;
+            ns1:Payphones "4" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "1snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Oval" .
+
+<https://tfl.gov.uk/tfl#OxfordCircus.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Victoria,Bakerloo" ;
+    ns2:zone "None" ;
+    ns1:station_name "OxfordCircus" .
+
+<https://tfl.gov.uk/tfl#Paddington.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "District,Circle" ;
+    ns2:zone "None" ;
+    ns1:station_name "Paddington" .
+
+<https://tfl.gov.uk/tfl#ParkRoyal.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "ParkRoyalStation,LondonUndergroundLtd.,WesternAvenue,London,W53EL" ;
+            ns1:phone "08453309875" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "subwaytostreet." ;
+            ns1:Payphones "2" ;
+            ns1:Photo_Booths "2" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes" ;
+            ns1:Vending_Machines "1snack,0drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "ParkRoyal" .
+
+<https://tfl.gov.uk/tfl#ParsonsGreen.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "ParsonsGreenStation,LondonUndergroundLtd.,ParsonsGreenLane,London,SW64HJ" ;
+            ns1:phone "08453309874" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "2" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "5" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "canopiesoverplatform(part),taxiranksoutsidestation." ;
+            ns1:Payphones "1" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "ParsonsGreen" .
+
+<https://tfl.gov.uk/tfl#Perivale.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "PerivaleStation,LondonUndergroundLtd.,HorsendenLane,Greenford,Middx" ;
+            ns1:phone "08453309873" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "postofficestylequeuingfortickets,routewaysplatformtotickethall." ;
+            ns1:Payphones "3" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes(male,female)" ;
+            ns1:Vending_Machines "2" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Perivale" .
+
+<https://tfl.gov.uk/tfl#PiccadillyCircus.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "PiccadillyCircusStation,LondonUndergroundLtd.,PiccadillyCircus,London,W1V9LB" ;
+            ns1:phone "08453309872" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "5" ;
+            ns1:Escalators "11" ;
+            ns1:Gates "16" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "subwaytostreet,routewaysplatformtotickethall." ;
+            ns1:Payphones "14intickethalls,4onplatforms" ;
+            ns1:Photo_Booths "2" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "32" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "PiccadillyCircus" .
+
+<https://tfl.gov.uk/tfl#Pimlico.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "PimlicoStation,LondonUndergroundLtd.,BessboroughSt,London,SW1V2JA" ;
+            ns1:phone "08453309877" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "2" ;
+            ns1:Gates "7" ;
+            ns1:Help_Points "4onplatforms,0intickethalls,1elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "routewaysplatformtotickethall." ;
+            ns1:Payphones "2intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Pimlico" .
+
+<https://tfl.gov.uk/tfl#Pinner.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Metropolitan" ;
+    ns2:zone "None" ;
+    ns1:station_name "Pinner" .
+
+<https://tfl.gov.uk/tfl#Plaistow.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "PlaistowStation,LondonUndergroundLtd.,PlaistowRd,London,E15" ;
+            ns1:phone "08453309874" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "5" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "canopiesoverplatform,taxiranksoutsidestation." ;
+            ns1:Payphones "2" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "4" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Plaistow" .
+
+<https://tfl.gov.uk/tfl#Poplar.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "DLR" ;
+    ns2:zone "None" ;
+    ns1:station_name "Poplar" .
+
+<https://tfl.gov.uk/tfl#PrestonRoad.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "PrestonRoadStation,LondonUndergroundLtd.,PrestonRd,Wembley,Middx,HA30PS" ;
+            ns1:phone "08453309878" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "1" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes" ;
+            ns1:Vending_Machines "2" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "PrestonRoad" .
+
+<https://tfl.gov.uk/tfl#PrinceRegent.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "DLR" ;
+    ns2:zone "None" ;
+    ns1:station_name "PrinceRegent" .
+
+<https://tfl.gov.uk/tfl#PuddingMillLane.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "DLR" ;
+    ns2:zone "None" ;
+    ns1:station_name "PuddingMillLane" .
+
+<https://tfl.gov.uk/tfl#PutneyBridge.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "PutneyBridgeStation,LondonUndergroundLtd.,StationApproach,London,SW63UH" ;
+            ns1:phone "08453309874" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "2" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "4" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "canopiesoverplatform(part),taxiranksoutsidestation." ;
+            ns1:Payphones "3" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "3" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "PutneyBridge" .
+
+<https://tfl.gov.uk/tfl#Queensbury.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "QueensburyStation,LondonUndergroundLtd.,CumberlandRd,Harrow,Middx,HA85NP" ;
+            ns1:phone "08453309871" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "4" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "0" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes(male,female,disabled/baby-changingfacilities)" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Queensbury" .
+
+<https://tfl.gov.uk/tfl#Queensway.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "QueenswayStation,LondonUndergroundLtd.,BayswaterRd,London,W24SS" ;
+            ns1:phone "08453309873" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "4" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "2" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "5" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "3snack,4drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Queensway" .
+
+<https://tfl.gov.uk/tfl#RavenscourtPark.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "RavenscourtParkStation,LondonUndergroundLtd.,RavenscourtRd,London,W60UG" ;
+            ns1:phone "08453309874" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "canopiesoverplatform." ;
+            ns1:Payphones "1" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2snack,2drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "RavenscourtPark" .
+
+<https://tfl.gov.uk/tfl#RaynersLane.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Metropolitan,Piccadilly" ;
+    ns2:zone "None" ;
+    ns1:station_name "RaynersLane" .
+
+<https://tfl.gov.uk/tfl#Redbridge.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "RedbridgeStation,LondonUndergroundLtd.,EasternAvenue,Ilford,Essex,IG45OQ" ;
+            ns1:phone "08453309873" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "postofficestylequeuingfortickets,routewaysplatformtotickethall." ;
+            ns1:Payphones "4" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes(male,female)" ;
+            ns1:Vending_Machines "4snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Redbridge" .
+
+<https://tfl.gov.uk/tfl#Richmond.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "LondonOverground,District" ;
+    ns2:zone "None" ;
+    ns1:station_name "Richmond" .
+
+<https://tfl.gov.uk/tfl#Rickmansworth.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Metropolitan" ;
+    ns2:zone "None" ;
+    ns1:station_name "Rickmansworth" .
+
+<https://tfl.gov.uk/tfl#RodingValley.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Central" ;
+    ns2:zone "None" ;
+    ns1:station_name "RodingValley" .
+
+<https://tfl.gov.uk/tfl#Rotherhithe.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "RotherhitheStation,LondonUndergroundLtd.,BrunelRd,London,SE164LF" ;
+            ns1:phone "08453309878" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "2" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "routewaysplatformtotickethall." ;
+            ns1:Payphones "1intickethalls,0onplatforms" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "0snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Rotherhithe" .
+
+<https://tfl.gov.uk/tfl#RoyalAlbert.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "DLR" ;
+    ns2:zone "None" ;
+    ns1:station_name "RoyalAlbert" .
+
+<https://tfl.gov.uk/tfl#RoyalOak.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "RoyalOakStation,LondonUndergroundLtd.,LordHillsBridge,London,W26ET" ;
+            ns1:phone "08453309878" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "4onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "2" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "RoyalOak" .
+
+<https://tfl.gov.uk/tfl#RoyalVictoria.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "DLR" ;
+    ns2:zone "None" ;
+    ns1:station_name "RoyalVictoria" .
+
+<https://tfl.gov.uk/tfl#Ruislip.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Metropolitan,Piccadilly" ;
+    ns2:zone "None" ;
+    ns1:station_name "Ruislip" .
+
+<https://tfl.gov.uk/tfl#RuislipGardens.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "RuislipGardensStation,LondonUndergroundLtd.,WestEndRd,Ruislip,Middx,HA46NF" ;
+            ns1:phone "08453309873" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "1" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "2" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "postofficestylequeuingfortickets,routewaysplatformtotickethall." ;
+            ns1:Payphones "0intickethalls,1onplatforms" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes(male,female)" ;
+            ns1:Vending_Machines "0snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "RuislipGardens" .
+
+<https://tfl.gov.uk/tfl#RuislipManor.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "RuislipManorStation,LondonUndergroundLtd.,VictoriaRd,Ruislip,Middx,HA49AA" ;
+            ns1:phone "08453309878" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "1" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "0intickethalls,0onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes" ;
+            ns1:Vending_Machines "5" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "RuislipManor" .
+
+<https://tfl.gov.uk/tfl#RussellSquare.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "RussellSquareStation,LondonUndergroundLtd.,BernardSt,London,WC1N1LG" ;
+            ns1:phone "08453309875" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "7" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "3" ;
+            ns1:Other_Facilities "routewaysplatformtotickethall." ;
+            ns1:Payphones "2intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "0" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "5" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "RussellSquare" .
+
+<https://tfl.gov.uk/tfl#SevenSisters.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "SevenSistersUndergroundStation,LondonUndergroundLtd.,SevenSistersRd,London" ;
+            ns1:phone "08453309877" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "1" ;
+            ns1:Escalators "4" ;
+            ns1:Gates "13" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "taxiranksoutsidestation,subwaytostreet,routewaysplatformtotickethall." ;
+            ns1:Payphones "10" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "2" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "3snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "SevenSisters" .
+
+<https://tfl.gov.uk/tfl#Shadwell.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "DLR" ;
+    ns2:zone "None" ;
+    ns1:station_name "Shadwell" .
+
+<https://tfl.gov.uk/tfl#SloaneSquare.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "SloaneSquareStation,LondonUndergroundLtd.,SloaneSquare,London,SW1W8BB" ;
+            ns1:phone "08453309874" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "2" ;
+            ns1:Gates "7" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "canopiesoverplatform,routewaysplatformtotickethall." ;
+            ns1:Payphones "3intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "2" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "9" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "SloaneSquare" .
+
+<https://tfl.gov.uk/tfl#Snaresbrook.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "SnaresbrookStation,LondonUndergroundLtd.,StationApproach,London,E111QE" ;
+            ns1:phone "08453309873" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "5" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "postofficestylequeuingfortickets." ;
+            ns1:Payphones "1" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes(male,female)" ;
+            ns1:Vending_Machines "3snack,0drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Snaresbrook" .
+
+<https://tfl.gov.uk/tfl#SouthEaling.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "SouthEalingStation,LondonUndergroundLtd.,SouthEalingRd,London,W54QB" ;
+            ns1:phone "08453309875" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "4" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "routewaysplatformtotickethall." ;
+            ns1:Payphones "2" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "SouthEaling" .
+
+<https://tfl.gov.uk/tfl#SouthHarrow.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "SouthHarrowStation,LondonUndergroundLtd.,SouthHillAve,Harrow,Middx,HA28HN" ;
+            ns1:phone "08453309875" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "3" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "SouthHarrow" .
+
+<https://tfl.gov.uk/tfl#SouthKensington.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "District,Circle" ;
+    ns2:zone "None" ;
+    ns1:station_name "SouthKensington" .
+
+<https://tfl.gov.uk/tfl#SouthKenton.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "LondonUnderground,55Broadway,London,SW1H0BD" ;
+            ns1:phone "" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ;
+            ns1:description "Entrance1",
+                "LondonUnderground,55Broadway,London,SW1H0BD" ;
+            ns1:naptan_id "4900ZZLUSKT1",
+                "4900ZZLUSKT2" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "SouthKenton" .
+
+<https://tfl.gov.uk/tfl#SouthQuay.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "DLR" ;
+    ns2:zone "None" ;
+    ns1:station_name "SouthQuay" .
+
+<https://tfl.gov.uk/tfl#SouthRuislip.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "SouthRuislipStation,LondonUndergroundLtd.,StationApproach,Ruislip,Middx,HA46DP" ;
+            ns1:phone "08453309873" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "postofficestylequeuingfortickets,routewaysplatformtotickethall." ;
+            ns1:Payphones "1intickethalls,1onplatforms" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "0snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "SouthRuislip" .
+
+<https://tfl.gov.uk/tfl#SouthWimbledon.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "SouthWimbledonStation,LondonUndergroundLtd.,HighSt,London,SW191DE" ;
+            ns1:phone "08453309879" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "2" ;
+            ns1:Gates "4" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "1intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "SouthWimbledon" .
+
+<https://tfl.gov.uk/tfl#SouthWoodford.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Central" ;
+    ns2:zone "None" ;
+    ns1:station_name "SouthWoodford" .
+
+<https://tfl.gov.uk/tfl#Southfields.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "District" ;
+    ns2:zone "None" ;
+    ns1:station_name "Southfields" .
+
+<https://tfl.gov.uk/tfl#Southgate.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "SouthgateStation,LondonUndergroundLtd.,HighSt,London,N14" ;
+            ns1:phone "08453309875" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "2" ;
+            ns1:Gates "7" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "postofficestylequeuingfortickets,routewaysplatformtotickethall." ;
+            ns1:Payphones "0intickethalls,0onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "0snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Southgate" .
+
+<https://tfl.gov.uk/tfl#Southwark.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Jubilee" ;
+    ns2:zone "None" ;
+    ns1:station_name "Southwark" .
+
+<https://tfl.gov.uk/tfl#StamfordBrook.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "StamfordBrookStation,LondonUndergroundLtd.,GoldhawkRd,London,W6" ;
+            ns1:phone "08453309874" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "canopiesoverplatform." ;
+            ns1:Payphones "2" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes(male,female)" ;
+            ns1:Vending_Machines "2snack,2drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "StamfordBrook" .
+
+<https://tfl.gov.uk/tfl#Stanmore.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Jubilee" ;
+    ns2:zone "None" ;
+    ns1:station_name "Stanmore" .
+
+<https://tfl.gov.uk/tfl#StepneyGreen.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "StepneyGreenStation,LondonUndergroundLtd.,MileEndRd,London,E14AQ" ;
+            ns1:phone "08453309873" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "4" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "routewaysplatformtotickethall." ;
+            ns1:Payphones "1intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "4snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "StepneyGreen" .
+
+<https://tfl.gov.uk/tfl#Stockwell.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Victoria,Northern" ;
+    ns2:zone "None" ;
+    ns1:station_name "Stockwell" .
+
+<https://tfl.gov.uk/tfl#StonebridgePark.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "LondonUnderground,55Broadway,London,SW1H0BD" ;
+            ns1:phone "" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ;
+            ns1:description "LondonUnderground,55Broadway,London,SW1H0BD" ;
+            ns1:naptan_id "4900ZZLUSGP1" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "StonebridgePark" .
+
+<https://tfl.gov.uk/tfl#Stratford.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "LondonOverground,Jubilee,DLR,Central" ;
+    ns2:zone "None" ;
+    ns1:station_name "Stratford" .
+
+<https://tfl.gov.uk/tfl#SudburyHill.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "SudburyHillUndergroundStation,LondonUndergroundLtd.,GreenfordRd,Harrow,Middx,HA13RA" ;
+            ns1:phone "08453309875" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "3" ;
+            ns1:Photo_Booths "2" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "SudburyHill" .
+
+<https://tfl.gov.uk/tfl#SudburyTown.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Piccadilly" ;
+    ns2:zone "None" ;
+    ns1:station_name "SudburyTown" .
+
+<https://tfl.gov.uk/tfl#SurreyQuays.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "SurreyQuaysStation,LondonUndergroundLtd.,LowerRd,London,SE162UF" ;
+            ns1:phone "08453309878" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "routewaysplatformtotickethall." ;
+            ns1:Payphones "4" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "0snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "SurreyQuays" .
+
+<https://tfl.gov.uk/tfl#SwissCottage.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "SwissCottageStation,LondonUndergroundLtd.,FinchleyRd,London,NW36HY" ;
+            ns1:phone "08453309871" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "2" ;
+            ns1:Escalators "2" ;
+            ns1:Gates "4" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "subwaytostreet,routewaysplatformtotickethall." ;
+            ns1:Payphones "6" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "SwissCottage" .
+
+<https://tfl.gov.uk/tfl#Temple.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "TempleStation,LondonUndergroundLtd.,VictoriaEmbankment,London,WC2R2PH" ;
+            ns1:phone "08453309874" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "6" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "4" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "6snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Temple" .
+
+<https://tfl.gov.uk/tfl#TheydonBois.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Central" ;
+    ns2:zone "None" ;
+    ns1:station_name "TheydonBois" .
+
+<https://tfl.gov.uk/tfl#TootingBec.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "TootingBecStation,LondonUndergroundLtd.,BalhamHighRd,London,SW179AH" ;
+            ns1:phone "08453309879" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "2" ;
+            ns1:Gates "5" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "electronicwhiteboardsintickethall,taxiranksoutsidestation." ;
+            ns1:Payphones "3" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "0snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "TootingBec" .
+
+<https://tfl.gov.uk/tfl#TootingBroadway.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "TootingBroadwayStation,LondonUndergroundLtd.,TootingHighSt,London,SW170SU" ;
+            ns1:phone "08453309879" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "2" ;
+            ns1:Escalators "3" ;
+            ns1:Gates "8" ;
+            ns1:Help_Points "6onplatforms,0intickethalls,1elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "electronicwhiteboardsintickethall,taxiranksoutsidestation,postofficestylequeuingfortickets." ;
+            ns1:Payphones "3" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "0" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "TootingBroadway" .
+
+<https://tfl.gov.uk/tfl#TottenhamCourtRoad.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "TottenhamCourtRoadStation,LondonUndergroundLtd.,OxfordSt,London,W1" ;
+            ns1:phone "08453309879" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "6" ;
+            ns1:Gates "13" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "electronicwhiteboardsintickethall,subwaytostreet." ;
+            ns1:Payphones "15" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "26" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "TottenhamCourtRoad" .
+
+<https://tfl.gov.uk/tfl#TottenhamHale.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Victoria" ;
+    ns2:zone "None" ;
+    ns1:station_name "TottenhamHale" .
+
+<https://tfl.gov.uk/tfl#Totteridge&Whetstone.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "Totteridge&WhetstoneStation,LondonUndergroundLtd.,TotteridgeLane,London,N209QP" ;
+            ns1:phone "08453309879" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "1" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes(male,female)" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Totteridge&Whetstone" .
+
+<https://tfl.gov.uk/tfl#TowerGateway.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "DLR" ;
+    ns2:zone "None" ;
+    ns1:station_name "TowerGateway" .
+
+<https://tfl.gov.uk/tfl#TowerHill.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "TowerHillStation,LondonUndergroundLtd.,TrinitySquare,London,EC3N4DJ" ;
+            ns1:phone "08453309874" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "3" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "15" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "postofficestylequeuingfortickets,routewaysplatformtotickethall." ;
+            ns1:Payphones "13" ;
+            ns1:Photo_Booths "2" ;
+            ns1:Ticket_Halls "2" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "7" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "TowerHill" .
+
+<https://tfl.gov.uk/tfl#TufnellPark.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "TufnellParkStation,LondonUndergroundLtd.,FortressRd,London,N195QB" ;
+            ns1:phone "08453309879" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "0" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "2" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "1intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "TufnellPark" .
+
+<https://tfl.gov.uk/tfl#TurnhamGreen.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Piccadilly,District" ;
+    ns2:zone "None" ;
+    ns1:station_name "TurnhamGreen" .
+
+<https://tfl.gov.uk/tfl#TurnpikeLane.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "TurnpikeLaneStation,LondonUndergroundLtd.,WestburyAvenue,London,N153NX" ;
+            ns1:phone "08453309875" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "3" ;
+            ns1:Gates "7" ;
+            ns1:Help_Points "4onplatforms,0intickethalls,1elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "postofficestylequeuingfortickets,subwaytostreet,routewaysplatformtotickethall." ;
+            ns1:Payphones "7intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "TurnpikeLane" .
+
+<https://tfl.gov.uk/tfl#Upminster.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "District" ;
+    ns2:zone "None" ;
+    ns1:station_name "Upminster" .
+
+<https://tfl.gov.uk/tfl#UpminsterBridge.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "UpminsterBridgeStation,LondonUndergroundLtd.,UpminsterRd,Hornchurch,Essex,RM126PL" ;
+            ns1:phone "08453309874" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "canopiesoverplatform." ;
+            ns1:Payphones "1" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yesM&F(openbetween0500-1500)" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "UpminsterBridge" .
+
+<https://tfl.gov.uk/tfl#Upney.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "District" ;
+    ns2:zone "None" ;
+    ns1:station_name "Upney" .
+
+<https://tfl.gov.uk/tfl#UptonPark.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "UptonParkStation,LondonUndergroundLtd.,GreenSt,London,E139AP" ;
+            ns1:phone "08453309874" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "5" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "canopiesoverplatform." ;
+            ns1:Payphones "2" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "4" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "UptonPark" .
+
+<https://tfl.gov.uk/tfl#Uxbridge.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Metropolitan,Piccadilly" ;
+    ns2:zone "None" ;
+    ns1:station_name "Uxbridge" .
+
+<https://tfl.gov.uk/tfl#Vauxhall.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "VauxhallUndergroundStation,LondonUndergroundLtd.,VauxhallCross,London,SE1" ;
+            ns1:phone "08453309877" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "3" ;
+            ns1:Escalators "2" ;
+            ns1:Gates "8" ;
+            ns1:Help_Points "4onplatforms,0intickethalls,1elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "taxiranksoutsidestation,subwaytostreet,routewaysplatformtotickethall." ;
+            ns1:Payphones "2intickethalls,4onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Vauxhall" .
+
+<https://tfl.gov.uk/tfl#Victoria.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "VictoriaUndergroundStation,LondonUndergroundLtd.,VictoriaSt,London,SW1E5ND" ;
+            ns1:phone "08453309877" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "1" ;
+            ns1:Escalators "6" ;
+            ns1:Gates "33" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "canopiesoverplatform,taxiranksoutsidestation,routewaysplatformtotickethall." ;
+            ns1:Payphones "16" ;
+            ns1:Photo_Booths "2" ;
+            ns1:Ticket_Halls "2" ;
+            ns1:Toilets "yes" ;
+            ns1:Vending_Machines "21" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Victoria" .
+
+<https://tfl.gov.uk/tfl#WalthamstowCentral.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "WalthamstowCentralStationBRHoeSt,London,E177LP" ;
+            ns1:phone "08453309877" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "2" ;
+            ns1:Gates "7" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "electronicwhiteboardsintickethall,postofficestylequeuingfortickets,subwaytostreet,routewaysplatformtotickethall." ;
+            ns1:Payphones "2" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "2" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "WalthamstowCentral" .
+
+<https://tfl.gov.uk/tfl#Wanstead.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "WansteadUndergroundStation,LondonUndergroundLtd.,TheGreen,London,E112NT" ;
+            ns1:phone "08453309873" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "2" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "postofficestylequeuingfortickets." ;
+            ns1:Payphones "4" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Wanstead" .
+
+<https://tfl.gov.uk/tfl#Wapping.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "WappingStation,LondonUndergroundLtd.,WappingHighSt,London,E19NQ" ;
+            ns1:phone "08453309878" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "2" ;
+            ns1:Other_Facilities "routewaysplatformtotickethall." ;
+            ns1:Payphones "0intickethalls,0onplatforms" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "0snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Wapping" .
+
+<https://tfl.gov.uk/tfl#WarrenStreet.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "WarrenStreetStation,LondonUndergroundLtd.,TottenhamCourtRd,London,NW13AA" ;
+            ns1:phone "08453309877" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "7" ;
+            ns1:Gates "10" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,5elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "canopiesoverplatform,routewaysplatformtotickethall." ;
+            ns1:Payphones "6" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes" ;
+            ns1:Vending_Machines "5" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "WarrenStreet" .
+
+<https://tfl.gov.uk/tfl#WarwickAvenue.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "WarwickAvenueStation,LondonUndergroundLtd.,WarwickAvenue,London,W92PT" ;
+            ns1:phone "08453309872" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "2" ;
+            ns1:Gates "4" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "taxiranksoutsidestation,subwaytostreet." ;
+            ns1:Payphones "2intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "1" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "WarwickAvenue" .
+
+<https://tfl.gov.uk/tfl#Waterloo.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Jubilee" ;
+    ns2:zone "None" ;
+    ns1:station_name "Waterloo" .
+
+<https://tfl.gov.uk/tfl#Watford.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "WatfordStation,LondonUndergroundLtd.,CassioburyParkAvenue,Watford,Herts,WD17LE" ;
+            ns1:phone "08453309878" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "1" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "postofficestylequeuingfortickets." ;
+            ns1:Payphones "1intickethalls,1onplatforms" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes" ;
+            ns1:Vending_Machines "0snack,2drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Watford" .
+
+<https://tfl.gov.uk/tfl#WembleyCentral.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "LondonOverground,Bakerloo" ;
+    ns2:zone "None" ;
+    ns1:station_name "WembleyCentral" .
+
+<https://tfl.gov.uk/tfl#WembleyPark.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Jubilee,Metropolitan" ;
+    ns2:zone "None" ;
+    ns1:station_name "WembleyPark" .
+
+<https://tfl.gov.uk/tfl#WestActon.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "WestActonStation,LondonUndergroundLtd.,StationParade,London,W36UP" ;
+            ns1:phone "08453309873" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "routewaysplatformtotickethall." ;
+            ns1:Payphones "2" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "WestActon" .
+
+<https://tfl.gov.uk/tfl#WestBrompton.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "LondonOverground,District" ;
+    ns2:zone "None" ;
+    ns1:station_name "WestBrompton" .
+
+<https://tfl.gov.uk/tfl#WestFinchley.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Northern" ;
+    ns2:zone "None" ;
+    ns1:station_name "WestFinchley" .
+
+<https://tfl.gov.uk/tfl#WestHam.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Jubilee,DLR,Hammersmith&City,District" ;
+    ns2:zone "None" ;
+    ns1:station_name "WestHam" .
+
+<https://tfl.gov.uk/tfl#WestHampstead.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "WestHampsteadUndergroundStation,LondonUndergroundLtd.,WestEndLane,London,NW62LX" ;
+            ns1:phone "08453309871" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "4" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "routewaysplatformtotickethall." ;
+            ns1:Payphones "3" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes(male,female,disabled/baby-changingfacilities)" ;
+            ns1:Vending_Machines "2snack,2drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "WestHampstead" .
+
+<https://tfl.gov.uk/tfl#WestHarrow.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "WestHarrowStation,LondonUndergroundLtd.,VaughanRd,Harrow,Middx,HA14HE" ;
+            ns1:phone "08453309878" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "2" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "1" ;
+            ns1:Photo_Booths "0" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes" ;
+            ns1:Vending_Machines "1" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "WestHarrow" .
+
+<https://tfl.gov.uk/tfl#WestIndiaQuay.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "DLR" ;
+    ns2:zone "None" ;
+    ns1:station_name "WestIndiaQuay" .
+
+<https://tfl.gov.uk/tfl#WestKensington.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "WestKensingtonStation,LondonUndergroundLtd.,NorthEndRd,London,W149NL" ;
+            ns1:phone "08453309874" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "4" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "canopiesoverplatform,postofficestylequeuingfortickets,routewaysplatformtotickethall." ;
+            ns1:Payphones "3" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "WestKensington" .
+
+<https://tfl.gov.uk/tfl#WestRuislip.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "WestRuislipStation,LondonUndergroundLtd.,IckenhamRd,WestRuislip,Middlesex" ;
+            ns1:phone "08453309873" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "yes" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "postofficestylequeuingfortickets,routewaysplatformtotickethall." ;
+            ns1:Payphones "2" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes(male,female)" ;
+            ns1:Vending_Machines "2" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "WestRuislip" .
+
+<https://tfl.gov.uk/tfl#WestbournePark.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "WestbourneParkStation,LondonUndergroundLtd.,WesternRd,London,W111AB" ;
+            ns1:phone "08453309878" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "4" ;
+            ns1:Help_Points "4onplatforms,0intickethalls,1elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "2" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "3" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "WestbournePark" .
+
+<https://tfl.gov.uk/tfl#Westferry.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "DLR" ;
+    ns2:zone "None" ;
+    ns1:station_name "Westferry" .
+
+<https://tfl.gov.uk/tfl#Westminster.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Jubilee,District,Circle" ;
+    ns2:zone "None" ;
+    ns1:station_name "Westminster" .
+
+<https://tfl.gov.uk/tfl#WhiteCity.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "WhiteCityStation,LondonUndergroundLtd.,WoodLane,London,W127RH" ;
+            ns1:phone "08453309873" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "1" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "4" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "5" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes(male,female)" ;
+            ns1:Vending_Machines "5" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "WhiteCity" .
+
+<https://tfl.gov.uk/tfl#Whitechapel.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "WhitechapelStation,LondonUndergroundLtd.,277WhitechapelRd,London,E11BY" ;
+            ns1:phone "08453309874" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "5" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "canopiesoverplatform,taxiranksoutsidestation,routewaysplatformtotickethall." ;
+            ns1:Payphones "3intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "8" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "Whitechapel" .
+
+<https://tfl.gov.uk/tfl#WillesdenGreen.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "WillesdenGreenStation,LondonUndergroundLtd.,WalmLane,London,NW24QT" ;
+            ns1:phone "08453309871" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "yes" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "3" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "6" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "" ;
+            ns1:Payphones "3" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "yes(male,female,disabled/baby-changingfacilities)" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "WillesdenGreen" .
+
+<https://tfl.gov.uk/tfl#WillesdenJunction.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "LondonOverground,Bakerloo" ;
+    ns2:zone "None" ;
+    ns1:station_name "WillesdenJunction" .
+
+<https://tfl.gov.uk/tfl#Wimbledon.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "District" ;
+    ns2:zone "None" ;
+    ns1:station_name "Wimbledon" .
+
+<https://tfl.gov.uk/tfl#WimbledonPark.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "WimbledonParkStation,ArthurRd,London,SW19" ;
+            ns1:phone "08453309874" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "0" ;
+            ns1:Gates "3" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "canopiesoverplatform(part)." ;
+            ns1:Payphones "1intickethalls,0onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2" ;
+            ns1:Waiting_Room "yes" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "WimbledonPark" .
+
+<https://tfl.gov.uk/tfl#WoodGreen.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "WoodGreenStation,LondonUndergroundLtd.,HighRd,WoodGreen,London,N224HH" ;
+            ns1:phone "08453309875" ] ;
+    ns2:facilities [ a rdf:Bag ;
+            ns1:Bridge "no" ;
+            ns1:Car_park "no" ;
+            ns1:Cash_Machines "0" ;
+            ns1:Escalators "3" ;
+            ns1:Gates "7" ;
+            ns1:Help_Points "0onplatforms,0intickethalls,0elsewhere" ;
+            ns1:Lifts "0" ;
+            ns1:Other_Facilities "postofficestylequeuingfortickets,routewaysplatformtotickethall." ;
+            ns1:Payphones "4intickethalls,2onplatforms" ;
+            ns1:Photo_Booths "1" ;
+            ns1:Ticket_Halls "1" ;
+            ns1:Toilets "no" ;
+            ns1:Vending_Machines "2snack,0drink" ;
+            ns1:Waiting_Room "no" ] ;
+    ns2:serviceline "" ;
+    ns2:zone "None" ;
+    ns1:station_name "WoodGreen" .
+
+<https://tfl.gov.uk/tfl#Woodford.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Central" ;
+    ns2:zone "None" ;
+    ns1:station_name "Woodford" .
+
+<https://tfl.gov.uk/tfl#WoodsidePark.html> ns2:contactdetails [ a rdf:Seq ;
+            ns1:address "None" ;
+            ns1:phone "None" ] ;
+    ns2:facilities [ a rdf:Bag ] ;
+    ns2:lines [ a rdf:Seq ] ;
+    ns2:naptans [ a rdf:Seq ] ;
+    ns2:serviceline "Northern" ;
+    ns2:zone "None" ;
+    ns1:station_name "WoodsidePark" .
+
